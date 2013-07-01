@@ -16,7 +16,6 @@ datatype exp = RVar string   ("RVar _" 75 )
              | Sub exp exp   (infix  "[-]" 70)
              | Mul exp exp   (infixr "[*]" 71)
 
-consts Div :: "exp => exp => exp" (infixr "[**]" 71)
 
 (*Logic formulas.*)
 datatype fform = WTrue | WFalse 
