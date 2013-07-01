@@ -1,0 +1,1 @@
+The file HHLprover includes all the implemental files for HHL prover for verifying HCSP models. To use the prover, you can creat a .thy file for building your HCSP model and include "HHL.thy" at the begining.
