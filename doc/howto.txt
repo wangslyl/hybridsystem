@@ -1,0 +1,20 @@
+1. download the repository
+git clone https://github.com/wangslyl/hybridsystem.git
+or:
+git clone git@github.com:wangslyl/hybridsystem.git
+
+2. commit your modification to the local repository
+git commit -a
+
+3. push your local repository to server
+git push 
+
+
+
+
+
+
+
+if your git can't work well, you can modify the .git/config file for the url like the below:
+url = https://wangslyl@github.com/wangslyl/hybridsystem.git
+
